@@ -26,6 +26,11 @@
             android:id="@+id/stop_btn"
             android:layout_height="wrap_content"
             android:text="Stop/stop_service"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/intent_service"
+            android:text="Start Intent Service"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
