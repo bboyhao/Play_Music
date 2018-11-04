@@ -31,6 +31,22 @@
             android:layout_height="wrap_content"
             android:id="@+id/intent_service"
             android:text="Start Intent Service"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bind_service"
+            android:text="bind Service"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:text="unbind Service"
+            android:id="@+id/unbind_service"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/get_random_int"
+            android:text="get a random integer"/>
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
